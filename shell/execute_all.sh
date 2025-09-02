@@ -1,10 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-INPUT_CSV="/home/ec2-user/kyo/Step23_TestList.csv"     # 入力CSVファイル名
-=======
-INPUT_CSV="/home/ec2-user/kyo/Step25_TestList.csv"     # 入力CSVファイル名
->>>>>>> aa9510b62e3f60f515146a5647275861e94076d9
+INPUT_CSV="/home/ec2-user/kyo/Step1_TestList.csv"     # 入力CSVファイル名
 OUTPUT_CSV="/home/ec2-user/kyo/script_results.csv"   # 出力CSVファイル名
 
 # 出力CSVのヘッダー
@@ -44,6 +40,7 @@ do
 
     rm -f "$stdout_file" "$stderr_file"
 done
+
 
 
 
