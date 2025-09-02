@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INPUT_CSV="/home/ec2-user/kyo/Step22_TestList.csv"     # 入力CSVファイル名
+INPUT_CSV="/home/ec2-user/kyo/Step25_TestList.csv"     # 入力CSVファイル名
 OUTPUT_CSV="/home/ec2-user/kyo/script_results.csv"   # 出力CSVファイル名
 
 # 出力CSVのヘッダー
@@ -40,5 +40,6 @@ do
 
     rm -f "$stdout_file" "$stderr_file"
 done
+
 
 
